@@ -17,7 +17,7 @@ namespace lib{
                 users[id]["Phone"] = ph_no;
                 cout<<"User created successfully..."<<endl;
             }
-            virtual void show_user_info(){
+            virtual void show_user_info(int id){
                 cout<<"Name : ";
                 cout<<"Email : ";
                 cout<<"Phone number : ";
